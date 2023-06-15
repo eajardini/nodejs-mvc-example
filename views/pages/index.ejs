@@ -1,1 +1,16 @@
 <h1>Hi, <%= user %></h1>
+
+
+
+<form action="updateUser" method="POST">
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id" required>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <input type="submit" value="Submit">
+  </form>
